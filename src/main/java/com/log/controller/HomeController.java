@@ -17,11 +17,36 @@ public class HomeController {
 		
 		String msg="Welcome to Page...";
 		
+		//try {
+			int i=1/0;
+		//} catch (Exception e) {
+		//	e.printStackTrace();
+		//}
+	
 		logger.debug("getWelcomeMsg() execution ended");
 		
 		return msg;
-		
+		 
 	}
+	
+	@GetMapping("/welcome2")
+	public String getmsg()
+	{
+		logger.debug("getWelcomeMsg() execution started");
+		
+		String msg="Welcome to Page...";
+		
+		logger.debug("getWelcomeMsg() execution ended");
+		
+		return msg;
+		 
+	}
+	
+	
+	
+	
+	
+	
 	
 
 }
