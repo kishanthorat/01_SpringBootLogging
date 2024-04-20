@@ -14,8 +14,9 @@ public class HomeController {
 	public String getWelcomeMsg()
 	{
 		logger.debug("getWelcomeMsg() execution started");
-		
-		String msg="Welcome to the api calls...";
+
+		String msg="Welcome to the api call...";
+
 		
 		//try {
 			int i=1/0;
@@ -34,7 +35,7 @@ public class HomeController {
 	{
 		logger.debug("getWelcomeMsg() execution started");
 		
-		String msg="Welcome to api calls...";
+		String msg="Welcome to api call...";
 		
 		logger.debug("getWelcomeMsg() execution ended");
 		
