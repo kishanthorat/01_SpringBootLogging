@@ -14,7 +14,7 @@ public class HomeController {
 	public String getWelcomeMsg()
 	{
 		logger.debug("getWelcomeMsg() execution started");
-		
+		// Handling merge conflict
 		String msg="Welcome to Page...";
 		
 		//try {
