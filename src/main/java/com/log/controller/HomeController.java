@@ -15,7 +15,7 @@ public class HomeController {
 	{
 		logger.debug("getWelcomeMsg() execution started");
 		
-		String msg="Welcome to Page...abcd";
+		String msg="Welcome to Page...abcdefg";
 
 		//try {
 			int i=1/0;
