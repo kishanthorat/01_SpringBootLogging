@@ -16,7 +16,7 @@ public class HomeController {
 		logger.debug("getWelcomeMsg() execution startedd");
 		
 		String msg="Welcome to Page..";
-		
+
 		//try {
 			int i=1/0;
 		//} catch (Exception e) {
@@ -34,7 +34,7 @@ public class HomeController {
 	{
 		logger.debug("getWelcomeMsg() execution started");
 		
-		String msg="Welcome to Page...";
+		String msg="Welcome to api calls...";
 		
 		logger.debug("getWelcomeMsg() execution ended");
 		
