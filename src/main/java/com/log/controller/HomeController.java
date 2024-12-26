@@ -13,7 +13,7 @@ public class HomeController {
 	@GetMapping("/welcome")
 	public String getWelcomeMsg()
 	{
-		logger.debug("getWelcomeMsg() execution startedd");
+		logger.debug("getWelcomeMsg() execution started");
 		
 		String msg="Welcome to Page..";
 
