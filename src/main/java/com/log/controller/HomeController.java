@@ -15,6 +15,7 @@ public class HomeController {
 	{
 		logger.debug("getWelcomeMsg() execution started");
 		
+
 		String msg="Welcome to Page...abcdefg";
 
 		//try {
@@ -22,7 +23,7 @@ public class HomeController {
 		//} catch (Exception e) {
 		//	e.printStackTrace();
 		//}
-	
+			
 		logger.debug("getWelcomeMsg() execution ended");
 		
 		return msg;
