@@ -13,7 +13,7 @@ public class HomeController {
 	@GetMapping("/welcome")
 	public String getWelcomeMsg()
 	{
-		logger.debug("getWelcomeMsg() execution started");
+		logger.debug("getWelcomeMsg() execution startedd");
 
 		String msg="Welcome to the api calls...";
 
